@@ -1,0 +1,17 @@
+.denItemStyle {
+  list-style: none;
+  height: 60px;
+  width: 40%;
+  background-color: #585076;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c4c4c4;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  color: #c4c4c4;
+  font-size: 28px;
+  font-family: roboto;
+  font-weight: 500;
+}

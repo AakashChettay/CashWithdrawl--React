@@ -1,0 +1,103 @@
+.bgContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  margin-left: 15px;
+}
+.name {
+  color: #d4d2db;
+  font-family: roboro;
+  font-weight: 400;
+  margin-left: 20px;
+  font-size: 38px;
+  margin-bottom: 0px;
+}
+.logo {
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.balanceSection {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+.bankBalanceHeading {
+  color: #585076;
+  font-family: roboto;
+  font-size: 24px;
+}
+.currentBalance {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.rsin {
+  margin-right: 10px;
+}
+.WithdrawHeading {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 28px;
+  margin-left: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.bbh {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.denominationItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    width: 40vw;
+    height: 70vh;
+  }
+}
